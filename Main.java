@@ -152,9 +152,142 @@ public class Main {
         String Something = sc2.nextLine();
         System.out.println(Something);
 
+        //Conditional Statements
+        //If, If else, If else if, Switch, nested if else
+        // 1. If statement
+        int studAge = 67;
+        if(studAge>18){
+            System.out.println("Student is Adult");
+        }
 
+        // 2. If Else Statement
+        if(studAge >= 18){
+            System.out.println("Eligible for vote");
+        }else{
+            System.out.println("Not Eligible for vote");
+        }
 
+        // Logical Operators: &&-AND OR-|| Not-!
+        // 1. AND-&&
+        int c = 23;
+        int d = 67;
+        if(c < 50 && d< 50){
+            System.out.println("Both are less than 50");
+        }else{
+            System.out.println("both are not less than 50");
+        }
+
+        // 2. OR-||
+        if(c < 50 || d< 50){
+            System.out.println("Both are less than 50");
+        }else{
+            System.out.println("Only one value less than 50");
+        }
+
+        // 3. NOT-!
+        boolean adult = false;
+        if(!adult) {
+            System.out.println("is adult");
+        }else{
+            System.out.println("not adult");
+        }
+
+        // if else if
+        // Example-1
+        /* Scanner sc3 = new Scanner(System.in);
+        System.out.println("Enter Your Cash Amount: ");
+        int cash = sc3.nextInt();
+
+        if(cash < 10){
+            System.out.println("Cannot Buy Anything");
+            System.out.println("Get More Money");
+        }
+        else if(cash > 10 && cash < 50){
+            System.out.println("Can Get Only One Item");
+        }
+        else{
+            System.out.println("Can Get Both Items");
+        }
+        */
+
+        // Switch Statement
+        int day = 5;
+        switch(day){
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Wrong Choice");
+        }
+
+        // Loops: We can use loops when we have to do some tasks repeatedly
+        // For Loop
+        for(int i=0; i<=10; i++){
+            System.out.println(i);
+        }
+        for(int j=20; j>=0; j--){
+            System.out.println(j);
+        }
+
+        //While loop
+        int s = 1;
+        while(s<=25) {
+            System.out.println(s);
+            s++;
+        }
+
+        //Do while
+        int k = 20;
+        do{
+            System.out.println(k);
+            k++;
+        }while(k<=20);
+
+        // Break & Contine Keyword: Use to break and continue statements
+        int i=0;
+        while(true){
+            if(i == 3){
+                i = i+1;
+                continue;
+            }
+            System.out.println(i);
+            i = i +1;
+            if(i > 5){
+                break;
+            }
+        }
+
+        // Exception: We can handle exceptions which we can handle by using try & catch block
+        // We cannot handle errors
+        // Try-Catch Block
+        int [] marks1 = {34, 45,67,89,90};
+        try {
+            System.out.println(marks1[7]);
+        }catch(Exception exception){
+            System.out.println("Array index is Wrong");
+        }
+        System.out.println("Hello");
 
     }
 }
+
+
 
