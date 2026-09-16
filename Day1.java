@@ -1,0 +1,160 @@
+package com.javapracticeworkspace;
+
+import java.util.Arrays;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        // Code starts from main function
+        // Sout is used to print output
+        System.out.println("Hello world");
+        System.out.println("Gauri Wakchaure");
+
+        //Variables: it is a container which is used to store something in a memory
+        String name = "Gauri";
+        int age = 22;
+        System.out.println("Value of variable name is: "+name);
+        System.out.println("Value of variable age is: "+age);
+
+        /* DataTypes: It tells us type of variable like integer, string, boolean
+        Types of DataTypes: 1.Primitive and Non-Primitive
+        Byte- 1 to [-12 to 127]
+        short - 2 bytes, int - 4 bytes, ong - 8 bytes float - 4 bytes
+        double - 8 bytes, char - 2 bytes, boolean - 1 byte[true/false]
+         */
+        // Primitive DataTypes
+        byte age1 = 30;
+        int phone = 1234567890;
+        long phone2 = 12345679077L;
+        float pi = 3.15F;
+        char letter = 'G';
+        boolean isAdult = true;
+
+        // Non-Primitive DataTypes
+        /* Non-Primitive datatypes has their own methods that we can use to perform some operations,
+        or we can get any value using them,
+        It has not fixed size
+        We have to declare it using new keyword */
+        String name1 = "Priya";
+        String name2 = new String("Siya");
+        System.out.println(name2);
+        System.out.println(name1.length());
+
+        //String Concatenate
+        String n1 = "Gauri";
+        String n2 = " Wakchaure";
+        String n3 = n1 + n2;
+        System.out.println(n3);
+
+        //charAt
+        String v1 = "Ram Sharma";
+        System.out.println(v1.charAt(2));
+
+        //length
+        System.out.println(v1.length());
+
+        //replace
+        // String are immutable that cannot change original string
+        String v2 = v1.replace('m', 'j');
+        System.out.println(v2);
+
+        //substring
+        System.out.println(v1.substring(2,6));
+
+        /* Array: It is used to store collection of similar data elements
+           It is a data structure
+           Represented in Square brackets [] */
+        int eng = 97;
+        int hin = 96;
+        int mar = 95;
+        int[] marks = new int[3];
+        marks[0] = 97;
+        marks[1] = 96;
+        marks[2] = 95;
+
+        //length
+        System.out.println(marks.length);
+
+        //sort
+        System.out.println(marks[0]);
+        Arrays.sort(marks);
+        System.out.println(marks[0]);
+
+        //Initialize Array Directly Using Curly brackets
+        int[] marksofStudent = {65, 74,98,30,90};
+
+        // 2D Array
+        int[][] finalmarks = {{45,67,78}, {87,90,54}};
+        System.out.println(finalmarks[1][1]);
+
+        // TypeCasting: One DataType to another
+        // 2 Types of casting: 1.Implicit  2.Explicit
+        // Implicit means java automatically done casting
+        double price = 516.00;
+        double  FP = price + 15;
+        System.out.println(FP);
+
+        //Explicit Casting: Means we manually convert one type to another but some data may lose
+        int p = 110;
+        int FP1 = p + (int)18.0;
+        System.out.println(FP1);
+
+        //Constants: To make value constant which cannot change
+        final float piValue = 3.14F;
+
+        //Operators: Use to Perform Operators
+        //Arithmatic Operator
+        int a = 23;
+        int b = 65;
+        System.out.println("Addition of a and b: "+(a+b));
+        System.out.println("Subtraction of a and b: "+(a-b));
+        System.out.println("Multiplication of a and b: "+(a*b));
+        System.out.println("Division of a and b: "+(a/b));
+        System.out.println("Modulus of a and b: "+(a%b));
+
+        //Assignment Operator: " = "
+        double ab = 54.90;
+
+        //Unary Operator
+        int num1 = 2;
+        System.out.println(++num1);
+        System.out.println(num1);
+
+        System.out.println(--num1);
+        System.out.println(num1);
+
+        /*Comparison Operator
+        It gives true or false values
+        1. a==b  2. a!=b
+        3. a<b   4. a>b
+        5. a<=b  6. a>=b
+        */
+
+        // Math Class: It has inbuilt functions which helps us find some values
+        //Find max number
+        System.out.println(Math.max(54,90));
+        System.out.println(Math.min(65,32));
+        System.out.println((int)(Math.random()*100));
+
+        // How to take INPUT?
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Your Age : ");
+        int age2 = sc.nextInt();
+        System.out.println(age2);
+
+        Scanner sc1 = new Scanner(System.in);
+        System.out.println("Enter Your Name : ");
+        String nameValue = sc1.next();
+        System.out.println(nameValue);
+
+        Scanner sc2 = new Scanner(System.in);
+        System.out.println("Enter Something about you...");
+        String Something = sc2.nextLine();
+        System.out.println(Something);
+
+
+
+
+    }
+}
+
