@@ -194,7 +194,7 @@ public class Main {
 
         // if else if
         // Example-1
-        /* Scanner sc3 = new Scanner(System.in);
+        Scanner sc3 = new Scanner(System.in);
         System.out.println("Enter Your Cash Amount: ");
         int cash = sc3.nextInt();
 
@@ -208,7 +208,7 @@ public class Main {
         else{
             System.out.println("Can Get Both Items");
         }
-        */
+        
 
         // Switch Statement
         int day = 5;
