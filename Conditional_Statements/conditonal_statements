@@ -1,0 +1,90 @@
+public class conditional_statements {
+
+public static void main(String[] args) {
+//Conditional Statements
+        //If, If else, If else if, Switch, nested if else
+        // 1. If statement
+        int studAge = 67;
+        if(studAge>18){
+            System.out.println("Student is Adult");
+        }
+
+        // 2. If Else Statement
+        if(studAge >= 18){
+            System.out.println("Eligible for vote");
+        }else{
+            System.out.println("Not Eligible for vote");
+        }
+
+        // Logical Operators: &&-AND OR-|| Not-!
+        // 1. AND-&&
+        int c = 23;
+        int d = 67;
+        if(c < 50 && d< 50){
+            System.out.println("Both are less than 50");
+        }else{
+            System.out.println("both are not less than 50");
+        }
+
+        // 2. OR-||
+        if(c < 50 || d< 50){
+            System.out.println("Both are less than 50");
+        }else{
+            System.out.println("Only one value less than 50");
+        }
+
+        // 3. NOT-!
+        boolean adult = false;
+        if(!adult) {
+            System.out.println("is adult");
+        }else{
+            System.out.println("not adult");
+        }
+
+        // if else if
+        // Example-1
+        Scanner sc3 = new Scanner(System.in);
+        System.out.println("Enter Your Cash Amount: ");
+        int cash = sc3.nextInt();
+
+        if(cash < 10){
+            System.out.println("Cannot Buy Anything");
+            System.out.println("Get More Money");
+        }
+        else if(cash > 10 && cash < 50){
+            System.out.println("Can Get Only One Item");
+        }
+        else{
+            System.out.println("Can Get Both Items");
+        }
+        
+
+        // Switch Statement
+        int day = 5;
+        switch(day){
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Wrong Choice");
+        }
+    }
+}
