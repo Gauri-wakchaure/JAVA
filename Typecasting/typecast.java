@@ -1,4 +1,4 @@
-public class typecast {
+public class Typecast {
     
       public static void main(String[] args) {
 

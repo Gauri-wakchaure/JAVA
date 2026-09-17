@@ -1,4 +1,4 @@
-public class math{
+public class Math{
 
 public static void main(String[] args) {
 // Math Class: It has inbuilt functions which helps us find some values

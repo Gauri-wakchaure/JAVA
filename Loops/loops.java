@@ -1,4 +1,4 @@
-public class loops {
+public class Loops {
 
 public static void main(String[] args) {
 // Loops: We can use loops when we have to do some tasks repeatedly

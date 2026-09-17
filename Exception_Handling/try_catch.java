@@ -1,4 +1,4 @@
-public class try_catch {
+public class Try_Catch {
 
 public static void main(String[] args) {
         // Exception: We can handle exceptions which we can handle by using try & catch block

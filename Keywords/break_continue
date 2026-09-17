@@ -1,4 +1,4 @@
-public class break_continue {
+public class Break_Continue {
 
 public static void main(String[] args) {
 // Break & Continue Keyword: Use to break and continue statements

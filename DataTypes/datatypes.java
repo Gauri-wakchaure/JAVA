@@ -1,4 +1,4 @@
-public class datatypes {
+public class Datatypes {
     
       public static void main(String[] args) {
 /* DataTypes: It tells us type of variable like integer, string, boolean
