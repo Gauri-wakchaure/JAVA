@@ -9,7 +9,7 @@ public class HashMaps {
         // Creating HashMap
         HashMap<String, Integer> map = new HashMap<>();
 
-        // Insert : Use Put
+        // Insert : Use Put to Insert Element
         map.put("India",120);
         map.put("USA",100);
         map.put("China",150);
@@ -23,7 +23,7 @@ public class HashMaps {
             System.out.println("Key is not present in a map");
         }
 
-        // Get
+        // Get key
         System.out.println(map.get("China"));  //Key exists
         System.out.println(map.get("Russia"));  //Key Doesn't exist
 

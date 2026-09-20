@@ -6,7 +6,7 @@
 import java.util.*;
 public class TreeSets {
     public static void main(String args[]) {
-        // Creation
+        // Creation of TreeSet
         TreeSet<Integer> set = new TreeSet<>();
 
         // Insert element

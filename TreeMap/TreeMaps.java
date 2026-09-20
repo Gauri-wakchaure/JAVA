@@ -19,14 +19,14 @@ public class TreeMaps {
 
         System.out.println(map);
 
-        // Search
+        // Search key
         if(map.containsKey("Paris")){
             System.out.println("Key is present in map");
         }else{
             System.out.println("Key is not present in a map");
         }
 
-        // Get
+        // Get Key
         System.out.println(map.get("China"));  //Key exists
         System.out.println(map.get("Russia"));  //Key Doesn't exist
 

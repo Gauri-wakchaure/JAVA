@@ -16,29 +16,29 @@ public class ArrayLists {
     public static void main(String args[]) {
        ArrayList<Integer> list = new ArrayList<Integer>();
 
-       // add elements
+       // Add elements
         list.add(0);
         list.add(2);
         list.add(3);
         System.out.println(list);
 
-        // get elements
+        // Get elements
         int element = list.get(0);
         System.out.println(element);
 
-        // add element in between
+        // Add element in between
         list.add(1,1);
         System.out.println(list);
 
-        // set element
+        // Set element
         list.set(0, 5);
         System.out.println(list);
 
-        // delete element
+        // Delete element
         list.remove(3);
         System.out.println(list);
 
-        // size
+        // Size
         int size = list.size();
         System.out.println(size);
 
@@ -48,7 +48,7 @@ public class ArrayLists {
         }
         System.out.println();
 
-        // sorting
+        // Sorting
         Collections.sort(list);
         System.out.println(list);
 

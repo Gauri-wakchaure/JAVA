@@ -24,7 +24,7 @@ public class LinkedLists {
         list.addLast("list");
         System.out.println(list);
 
-        // Size
+        // Check Size
         int size = list.size();
         System.out.println(size);
 

@@ -6,7 +6,7 @@
 import java.util.*;
 public class LinkedHashSets {
     public static void main(String args[]) {
-        // Creation
+        // Creation of LInkedHashSet
         LinkedHashSet<Integer> set = new LinkedHashSet<>();
 
         // Insert element

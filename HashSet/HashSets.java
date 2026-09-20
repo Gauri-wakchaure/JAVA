@@ -10,10 +10,10 @@
 import java.util.*;
 public class HashSets {
     public static void main(String args[]) {
-        // Creation
+        // Creation of HashSet
        HashSet<Integer> set = new HashSet<>();
 
-       // Insert
+       // Insert Element
         set.add(5);
         set.add(1);
         set.add(2);
