@@ -17,6 +17,5 @@ public class ParallelAPI {
                 .filter(n -> n % 2 == 0)
                 .filter(n -> n>5)
                 .forEach(System.out::println);
-
-        }
     }
+}

@@ -1,6 +1,11 @@
-// JAVA 8 Features:
-// 1. Lambda Expression
-// 2. Functional Interface
+/*  JAVA 8 Features:
+
+ Real- Industry powers mostly used java-8 features
+ Spring-boot, Microservices, backend APIs,
+ Data Processing, Cloud Applications, Enterprise Banking Projects
+ 1. Lambda Expression
+ 2. Functional Interface
+*/
 
     /*  Functional Interface
     It is a interface that contains exactly one abstract(unimplemented)
@@ -20,18 +25,8 @@
 interface Calculator1 {
     int add(int a, int b);
 }
-public class Test {
+public class FunctionalInterface1 {
     public static void main(String args[]) {
-
-        /* Lambda Expression
-         1. it is a concise way to represent an implementation of a functional interface
-            using a short, readable syntax
-         2. 0 -> { /* Implementation here  }
-         3. Used to reduce boilerplate code
-         4. To use lambda expression we must have to use power of
-            Functional interface
-         5. Cleaner Code
-         */
 
         Calculator1 calc = (a,b) ->a+b;
         System.out.println(calc.add(65,80));
