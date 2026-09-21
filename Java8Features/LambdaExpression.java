@@ -17,7 +17,7 @@ public class LambdaExpression {
          4. To use lambda expression we must have to use power of
             Functional interface
          5. Cleaner Code
-         6. Cannot add lamda expression without functional interface
+         6. Cannot add lambda expression without functional interface
          */
 
         Calculator1 calc = (a,b) ->a+b;
